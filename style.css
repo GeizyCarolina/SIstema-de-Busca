@@ -1,0 +1,25 @@
+
+.content-form{
+    background-color: rgb(255, 238, 218);
+    width: 400px;
+}
+
+.content-form form{
+    width: 300px;
+}
+
+.reg-livros{
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:992px) {
+    .reg-livros{
+      margin: 0 ;
+      width: 100%;
+    }
+    .content-form form {
+      width: 100%;
+      padding:10px;
+    }
+}
